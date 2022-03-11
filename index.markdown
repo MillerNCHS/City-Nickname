@@ -21,7 +21,7 @@
     " total = total + wins[count]\n" +
     " count = count + 1\n" +
     " \n" +
-    "print (&quot;\n{:&lt;25}{:&lt;25,.0f}&quot;.format(&quot;Average&quot;, total/count))";
+    "print (&quot;{:&lt;25}{:&lt;25,.0f}&quot;.format(&quot;Average&quot;, total/count))";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
