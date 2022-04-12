@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Fortnite Wins Parsons Problem
+title: City Nickname Parsons Problem
 email: djmiller@naperville203.org
 description: # >- # this means to ignore newlines until "baseurl:"
   Drag or shuffle the blocks of code in the practice problems below.
