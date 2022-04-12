@@ -7,21 +7,16 @@
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "# Initialize tuples with Fortnite players and their wins. Then print a table with that information and output the average number of wins.\n" +
-    "players = (&quot;Arkhram&quot;, &quot;EpikWhale&quot;, &quot;Bugha&quot;, &quot;Edgey&quot;, &quot;Ninja&quot;)\n" +
-    "wins = (10410, 10371, 7264, 7022, 6703)\n" +
+  var initial = "cities = {&quot;New York City&quot;: &quot;The Big Apple&quot;, &quot;Chicago&quot;: &quot;The Windy City&quot;, &quot;Houston&quot;: &quot;Space City&quot;}\n" +
     " \n" +
-    "count = 0\n" +
-    "total = 0\n" +
+    "# New York City is protesting apples and wants to change their nickname before it is printed\n" +
+    "cities[&quot;New York City&quot;] = &quot;The City That Never Sleeps&quot;\n" +
     " \n" +
-    "print (&quot;{:&lt;25}{:&lt;25}&quot;.format(&quot;Players&quot;, &quot;Wins&quot;))\n" +
-    " \n" +
-    "for person in players:\n" +
-    " print (&quot;{:&lt;25}{:&lt;25,}&quot;.format(person, wins[count]))\n" +
-    " total = total + wins[count]\n" +
-    " count = count + 1\n" +
-    " \n" +
-    "print (&quot;{:&lt;25}{:&lt;25,.0f}&quot;.format(&quot;Average&quot;, total/count))";
+    "city = input(&quot;Enter the name of a city to get its nickname: &quot;)\n" +
+    "if city in cities:\n" +
+    " print(cities[city])\n" +
+    "else:\n" +
+    " print(&quot;I don&#039;t know that city&#039;s nickname.&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
